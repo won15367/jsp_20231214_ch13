@@ -71,6 +71,10 @@
 					e.printStackTrace();
 				}
 			}
-	%>	
+	%>
+	
+	<br><hr>
+	<input type="button" value="회원탈퇴시키기" onclick="script:window.location.href='withdraw.jsp'">
+	<input type="button" value="로그아웃" onclick="script:window.location.href='logout.jsp'">
 </body>
 </html>
